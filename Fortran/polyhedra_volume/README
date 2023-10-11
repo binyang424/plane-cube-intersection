@@ -1,0 +1,109 @@
+compile, with say
+
+% ifort polyhedra_volume.f90 -o polyhedra_volume.exe
+
+run the script that drives the executable:
+
+% ./drive_polyhedra_volume.com 
+ 
+polyhedra_data/tetrahedron_01.dat
+volume =  47.8513917599966732   mathematica  47.8513917599966732   difference   0.0000000000000000E+00
+ 
+polyhedra_data/tetrahedron_02.dat
+volume =  47.8513917599966803   mathematica  47.8513917599966732   difference   7.1054273576010019E-15
+ 
+polyhedra_data/tetrahedron_03.dat
+volume =  47.8513917599966661   mathematica  47.8513917599966732   difference  -7.1054273576010019E-15
+ 
+polyhedra_data/tetrahedron_04.dat
+volume =  47.8513917599966732   mathematica  47.8513917599966732   difference   0.0000000000000000E+00
+ 
+polyhedra_data/tetrahedron_05.dat
+volume =  47.8513917599968934   mathematica  47.8513917599966732   difference   2.2026824808563106E-13
+ 
+polyhedra_data/tetrahedron_06.dat
+volume =  47.8513917599966732   mathematica  47.8513917599966732   difference   0.0000000000000000E+00
+ 
+polyhedra_data/tetrahedron_07.dat
+volume =  47.8513917599966803   mathematica  47.8513917599966732   difference   7.1054273576010019E-15
+ 
+polyhedra_data/tetrahedron_08.dat
+volume =  47.8513917599966661   mathematica  47.8513917599966732   difference  -7.1054273576010019E-15
+ 
+polyhedra_data/tetrahedron_09.dat
+volume =  47.8513917599966732   mathematica  47.8513917599966732   difference   0.0000000000000000E+00
+ 
+polyhedra_data/tetrahedron_10.dat
+volume =  47.8513917599968934   mathematica  47.8513917599969076   difference  -1.4210854715202004E-14
+ 
+polyhedra_data/cube_01.dat
+volume = 143.5541752799900905   mathematica 143.5541752799900905   difference   0.0000000000000000E+00
+ 
+polyhedra_data/cube_02.dat
+volume = 143.5541752799900337   mathematica 143.5541752799900905   difference  -5.6843418860808015E-14
+ 
+polyhedra_data/cube_03.dat
+volume = 143.5541752799900053   mathematica 143.5541752799900905   difference  -8.5265128291212022E-14
+ 
+polyhedra_data/cube_04.dat
+volume = 143.5541752799901190   mathematica 143.5541752799900905   difference   2.8421709430404007E-14
+ 
+polyhedra_data/cube_05.dat
+volume = 143.5541752799906874   mathematica 143.5541752799900905   difference   5.9685589803848416E-13
+ 
+polyhedra_data/octahedron_01.dat
+volume = 191.4055670399866074   mathematica 191.4055670399866074   difference   0.0000000000000000E+00
+ 
+polyhedra_data/octahedron_02.dat
+volume = 191.4055670399866358   mathematica 191.4055670399866074   difference   2.8421709430404007E-14
+ 
+polyhedra_data/octahedron_03.dat
+volume = 191.4055670399866358   mathematica 191.4055670399866074   difference   2.8421709430404007E-14
+ 
+polyhedra_data/octahedron_04.dat
+volume = 191.4055670399866642   mathematica 191.4055670399866074   difference   5.6843418860808015E-14
+ 
+polyhedra_data/octahedron_05.dat
+volume = 191.4055670399875737   mathematica 191.4055670399876874   difference  -1.1368683772161603E-13
+ 
+polyhedra_data/dodecahedron_01.dat
+volume = 287.1083505599799537   mathematica 287.1083505599798968   difference   5.6843418860808015E-14
+ 
+polyhedra_data/dodecahedron_02.dat
+volume = 287.1083505599799537   mathematica 287.1083505599798968   difference   5.6843418860808015E-14
+ 
+polyhedra_data/dodecahedron_03.dat
+volume = 287.1083505599799537   mathematica 287.1083505599798968   difference   5.6843418860808015E-14
+ 
+polyhedra_data/dodecahedron_04.dat
+volume = 287.1083505599799537   mathematica 287.1083505599798968   difference   5.6843418860808015E-14
+ 
+polyhedra_data/dodecahedron_05.dat
+volume = 287.1083505599813748   mathematica 287.1083505599813748   difference   0.0000000000000000E+00
+ 
+polyhedra_data/dodecahedron_06.dat
+volume = 259.6919426949820604   mathematica 259.6919426949821172   difference  -5.6843418860808015E-14
+ 
+polyhedra_data/icosahedron_01.dat
+volume = 313.1914250916442484   mathematica 313.1914250916443052   difference  -5.6843418860808015E-14
+ 
+polyhedra_data/triacontahedron_01.dat
+volume = 358.8854381999748284   mathematica 358.8854381999749990   difference  -1.7053025658242404E-13
+ 
+ 
+some mathematica polyhedra:
+ 
+polyhedra_data/cube_mathematica_01.dat
+volume =   0.9999999999999999   mathematica   1.0000000000000000   difference  -1.1102230246251565E-16
+ 
+polyhedra_data/snub_cube_mathematica_01.dat
+volume =   7.8894773999753927   mathematica   7.8894773999753900   difference   2.6645352591003757E-15
+ 
+ 
+non-convex test cases:
+ 
+polyhedra_data/120hedron_01.dat
+volume = 443.6067977499688482   mathematica 443.6067977499687913   difference   5.6843418860808015E-14
+ 
+polyhedra_data/small_stellated_dodecahedron_mathematica.dat
+volume =   0.4270509831248422   mathematica   0.4270509831248424   difference  -2.2204460492503131E-16

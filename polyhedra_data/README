@@ -1,0 +1,7 @@
+each polyhedra file begins with a header line. you can put anything in here.
+the second line is the notional answer for the volume, mostly from mathematica here for comparison purposes
+the next line gives the numver of vertices, nvert.
+the next block gives the x, y, z coordinates of those nvert vertices.
+the next line gives the number of faces.
+teh next block gives the face number and how many mface vertices it has
+followed by an integer listing of those  mface vertices associated with the face.
