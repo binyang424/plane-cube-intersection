@@ -1,6 +1,6 @@
 This Python implementation provides a method to determine plane-cube intersections, originally implemented in Fortran by Dr. [Francis Timmes](https://search.asu.edu/profile/1096683) at Arizona State University. It allows you to calculate the volume of intersection between a plane and a cube using the following specified notations: 
 
-![](https://github.com/binyang424/plane-cube-intersection/blob/db0c73025d4e04192d9e3891023a52efcd86455d/111.jpeg)
+<img src="[drawing.jpg](https://github.com/binyang424/plane-cube-intersection/blob/db0c73025d4e04192d9e3891023a52efcd86455d/111.jpeg)" alt="notations" style="width:400px;"/>
 
 - `pyvolume_fraction.py` is the main function that can be used as an template and a tutorial of this code for volume fraction calculation.
 - `pypolylib.py` contains functions for polygon area and polyhedron volume calculations.
